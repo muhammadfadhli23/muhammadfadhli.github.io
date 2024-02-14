@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinasi Wisata</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="hero">
+          <h4 class="heading">Destinasi Wisata Healing</h4>
+          <p class="sub-heading">Bali & Lombok</p>
+        </div>
+        <div class="features feature-1">
+          <h2 class="price">IDR 4000k</h2>
+          <p class="item">Bali</p>
+        </div>
+        <div class="features feature-2">
+          <h2 class="price">IDR 6000k</h2>
+          <p class="item">Lombok</p>
+        </div>
+      </header>
+      <!-- end header -->
+      <!-- nav -->
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Destinasi Wisata</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Destination</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <!-- end nav -->
+
+      <!-- service -->
+      <section class="services">
+        <div class="service">
+          <i class="fa-solid fa-plane-up icon"></i>
+          <h3>Booking Pesawat</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo animi
+            doloribus iusto, praesentium culpa eveniet.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-earth-asia icon"></i>
+          <h3>Destinasi Pilihan</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo animi
+            doloribus iusto, praesentium culpa eveniet.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-icons icon"></i>
+          <h3>Fotografi Destinasi</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo animi
+            doloribus iusto, praesentium culpa eveniet.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-hotel icon"></i>
+          <h3>Booking Hotel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo animi
+            doloribus iusto, praesentium culpa eveniet.
+          </p>
+        </div>
+      </section>
+      <!-- end service -->
+
+      <!-- Gallery -->
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt="" />
+        <img src="https://source.unsplash.com/random/202x202" alt="" />
+        <img src="https://source.unsplash.com/random/203x203" alt="" />
+        <img src="https://source.unsplash.com/random/204x204" alt="" />
+        <img src="https://source.unsplash.com/random/205x205" alt="" />
+        <img src="https://source.unsplash.com/random/206x206" alt="" />
+        <img src="https://source.unsplash.com/random/207x207" alt="" />
+        <img src="https://source.unsplash.com/random/208x208" alt="" />
+        <img src="https://source.unsplash.com/random/209x209" alt="" />
+        <img src="https://source.unsplash.com/random/2010x2010" alt="" />
+      </section>
+      <!-- End Gallery -->
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/959fa05556.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
